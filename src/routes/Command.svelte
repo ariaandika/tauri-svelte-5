@@ -38,7 +38,7 @@
     {#await promise}
       Loading...
     {:then msg}
-      From Rust: {msg}
+      `{msg}` from rust
     {:catch err}
       Error: {err?.message ?? "Fatal Error"}
     {/await}
