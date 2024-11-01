@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html, body {
+    @apply h-screen bg-gray-900 text-white;
+  }
+}
+
